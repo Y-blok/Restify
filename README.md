@@ -6,7 +6,7 @@ Welcome to Restify! This is a rental booking web application developed for CSC30
 
 First, make sure you have access to some form of Linux terminal (ie. WSL, cygwin, etc.). Also, ensure you have up-to-date versions of Python (>=3.0), and pip3. The rest of the setup shell should do the rest.  
 
-To set up the app, using a Linux terminal, navigate to the main Restify folder (with `kill.sh`, `run.sh`, and `startup.sh`). Then run:
+To set up the app, using a **Linux terminal**, navigate to the main Restify folder (with `kill.sh`, `run.sh`, and `startup.sh`). Then run:
 ```
 dos2unix startup.sh
 dos2unix run.sh
@@ -36,7 +36,7 @@ New users and houses should persist through app usage.
 
 ## To stop
 
-To stop Restify, in a new terminal, simply run:
+To stop Restify, in any new terminal (can be Windows, Linux, Mac, etc.), simply run:
 ```
 bash kill.sh
 ```
