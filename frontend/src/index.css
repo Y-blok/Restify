@@ -1,0 +1,175 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+/* body {
+    font-family: "Hammersmith One" !important;
+} */
+
+:root {
+    --primary: #3B71CA;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.j1-text{
+    color: rgb(0, 255, 0) !important;
+    /* text-shadow: -1px 0 rgb(83, 255, 83), 0 1px rgb(83, 255, 83), 1px 0 rgb(83, 255, 83), 0 -1px rgb(83, 255, 83); */
+}
+
+.jumbotron-1 {
+    background-image: url(./assets/jumbotron.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: grayscale(25%);
+}
+
+.j2-text{
+    color: white !important;
+    /* text-shadow: -1px 0 rgb(253, 135, 135), 0 1px rgb(253, 135, 135), 1px 0 rgb(253, 135, 135), 0 -1px rgb(253, 135, 135); */
+}
+
+.jumbotron-2 {
+    background-image: url(./assets/jumbotron2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    filter: grayscale(25%);
+}
+
+.j3-text{
+    color: white !important;
+    /* text-shadow: -1px 0 rgb(253, 135, 135), 0 1px rgb(253, 135, 135), 1px 0 rgb(253, 135, 135), 0 -1px rgb(253, 135, 135); */
+}
+
+.jumbotron-3 {
+    background-image: url(./assets/jumbotron3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    filter: grayscale(25%);
+}
+
+.jumbotron{
+    min-height: 250px;
+}
+
+.notif-menu > li{
+    width:100%;
+    white-space: normal !important;
+}
+
+.nav-item:hover{
+    background-color: #f0f0f0 !important;
+}
+
+.form-row {
+    background-color: white;
+}
+
+.order-drop {
+    width: 40% !important;
+}
+
+.search-results {
+    border-radius: 3rem !important;
+}
+
+.logo {
+    height: 1.25rem;
+}
+
+.rental{
+    transition: 0.5s;
+}
+
+.rental:hover {
+    box-shadow: 0 .5rem 1rem var(--primary) !important;
+}
+
+.address {
+    height: 150px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.house-name {
+    height: 75px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notif-menu {
+    max-height: 94vh;
+    overflow-y: scroll;
+    width: 225px;
+}
+
+.scrolling {
+    overflow-y: scroll;
+}
+
+.customHeight {
+    max-height: 90vh;
+}
+
+.unread {
+    background-color: aqua;
+    font-weight: 500;
+}
+
+.unread:hover {
+    background-color: rgb(3, 229, 229);
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:flex;
+}
+
+.circle {
+    clip-path: circle();
+}
+
+.house-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.owned-image-div {
+    height: 250px;
+}
+
+.image-div {
+    height: 200px;
+}
+
+.images-form {
+    width : 75vw;
+}
