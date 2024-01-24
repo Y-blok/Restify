@@ -8,10 +8,19 @@ First, make sure you have access to some form of Linux terminal (ie. WSL, cygwin
 
 To set up the app, using a Linux terminal, navigate to the main Restify folder (with `kill.sh`, `run.sh`, and `startup.sh`). Then run:
 ```
+dos2unix startup.sh
+dos2unix run.sh
+dos2unix kill.sh
+dos2unix backend/restify/manage.py
 bash startup.sh
 ```
+(Downloading off of GitHub changes line endings of Unix code, hence why we need `dos2unix`). If you do not have dos2unix, run:
+```
+sudo apt-get update
+sudo apt-get install dos2unix
+```
 
-If you get an error like `sudo: n: command not found`, run: `sudo npm install n -g` and then try `bash startup.sh` again.
+If you got an error like `sudo: n: command not found` after `bash startup.sh`, run: `sudo npm install n -g` and then try again.
 
 ## To start
 
